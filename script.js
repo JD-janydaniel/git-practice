@@ -5,6 +5,6 @@ request.onload = function(){
     var res = JSON.parse(request.response);
     console.log(res);
     for(var i=0;i<res.length;i++){
-    console.log(res[i].capital,res[i].area);
+    console.log(res[i].capital[0],res[i].area);
 }
 }
