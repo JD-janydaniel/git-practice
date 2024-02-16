@@ -29,7 +29,7 @@ request.onload = function(){
 }*/
 
 
-var request = new XMLHttpRequest();
+/*var request = new XMLHttpRequest();
 request.open("GET","https://raw.githubusercontent.com/rvsp/restcountries-json-data/master/res-countries.json")
 request.send();
 request.onload = function(){
@@ -53,4 +53,11 @@ request.onload = function(){
      // 3.print the sum of total population of all countries in console
      var total_popul = res.reduce((acc,cv)=>acc+cv.population,0);
      console.log(total_popul);
+}*/
+let arr = [1,2,3,5];
+for(var i=0;i<arr.length;i++){
+    if(arr[i]+1!=arr[i+1]){
+        console.log(arr[i]+1);
+        break
+    }
 }
